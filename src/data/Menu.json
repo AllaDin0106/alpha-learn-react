@@ -1,0 +1,44 @@
+{
+    "items": [{
+            "header": "Main",
+            "items": [{
+                    "name": "Home",
+                    "internal": "home",
+                    "icon": "home"
+                },
+                {
+                    "name": "Wallet",
+                    "internal": "wallet",
+                    "icon": "ethereum"
+                },
+                {
+                    "name": "Deposit",
+                    "internal": "deposit",
+                    "img": "../img/logos/infura.svg"
+                },
+                {
+                    "name": "Send",
+                    "internal": "send",
+                    "img": "../img/logos/infura.svg"
+                }
+            ]
+        },
+        {
+            "header": "Exchange",
+            "items": [{
+                "name": "Uniswap",
+                "internal": "uniswap",
+                "img": "../img/logos/uniswap.svg"
+            }]
+        },
+        {
+            "header": "Staking",
+            "items": [{
+                "name": "Compound",
+                "internal": "compound",
+                "img": "../img/logos/compound.svg"
+            }]
+        }
+    ],
+    "bottom": []
+}

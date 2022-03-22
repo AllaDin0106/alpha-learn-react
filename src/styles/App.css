@@ -1,0 +1,59 @@
+.App {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background: white;
+}
+.App .main-menu {
+  margin-bottom: 0;
+  display: flex !important;
+  width: auto !important;
+  justify-content: flex-start;
+  border-top: 0 !important;
+  border-bottom: 0 !important;
+  border-left: 0 !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+.App .main-menu.inverted {
+  border-right: 1px solid rgba(255, 255, 255, 0.08) !important;
+}
+.App .main-menu .item {
+  min-width: 10em;
+  width: 100%;
+}
+.App .main-menu .item .item {
+  display: flex !important;
+  align-items: center;
+}
+.App .main-menu .item .item .icon {
+  height: 18px;
+  width: 18px;
+  margin-inline-end: 0.5em;
+}
+.App .main-menu .item .item .icon::before {
+  font-size: 16px;
+}
+.App .main-menu .item img {
+  height: 18px !important;
+  width: 18px !important;
+  margin-inline-end: 0.5em !important;
+}
+.App .main-menu .item.bottom {
+  margin-top: auto;
+}
+.App > .content {
+  flex: 1;
+  padding: 2em;
+  overflow: auto;
+}
+.App > .content::-webkit-scrollbar {
+  width: 6px;
+}
+.App > .content::-webkit-scrollbar-thumb {
+  border-radius: 0;
+}
+.App > .content.inverted {
+  background: #1b1c1d;
+  color: white;
+}
